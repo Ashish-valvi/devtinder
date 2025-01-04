@@ -8,7 +8,6 @@ app.use("/test",(req,res)=>{
 app.use("/hello",(req,res)=>{
     res.send("this is a response from /hello ")
  })
-
 app.listen(port,()=>{
     console.log(`server is rumming successfully on ${port}`)
 });
